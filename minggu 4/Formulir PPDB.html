@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Form Pendaftaran Mahasiswa Baru</title>
+  </head>
+  <body>
+  <table border='0' width='60%' cellpadding='2'  cellspacing='2' align='center' bgcolor=white><tr><br></tr>
+      <tr><td colspan="2" bgcolor=yellow><center><b>INFORMASI PERSONAL</b></center></td></tr>
+      <tr><td><b>NISN</b></td><td><input type="text" name="NISN" size="40" maxlength="50"/></td></tr>
+      <tr><td><b>Nama</b></td><td><input type="text" name="nama" size="40" maxlength="50"/></td></tr>
+      <tr><td><b>Tempat Tanggal Lahir</b></td>
+          <td><input type="text" name="TTL" size="30" maxlength="50"/>
+          <input type="date" id="fTempatTanggalLahir" name="TempatTanggalLahir" required></td>
+          </tr>
+      <tr><td><b>Alamat</b></td><td><textarea name="alamat" cols="30" rows="3"></textarea></td></tr>
+      <tr>
+      <td><b>Agama</b></td><td>
+      <select name="agama">
+      <option value="islam">Islam</option>
+      <option value="kristen">Kristen</option>
+      <option value="hindu">Hindu</option>
+      <option value="budha">Budha</option>
+      </select>
+      </td>
+      <tr>
+      <tr>
+      <td><b>Jenis Kelamin</b></td><td><input type="radio" name="jenis_kelamin" value="pria"/><label for="jenis_kelamin">Pria</label>
+      <input type="radio" name="jenis_kelamin" value="wanita"/><label for="jenis_kelamin">Wanita</label></td>
+      </tr>
+      <tr>
+      <td><b>Kewarganegaraan</b></td><td>
+      <select name="kewarganegaraan">
+      <option value="wni">WNI</option>
+      <option value="wna">WNA</option>
+      </select>
+      </td>
+  <tr><td><b>Kelurahan</b></td><td><input type="text" name="kelurahan" size="40" maxlength="50"/></td></tr>
+  <tr><td><b>Kecamatan</b></td><td><input type="text" name="kecamatan" size="40" maxlength="50"/></td></tr>
+  <tr><td><b>Kota/Kabupaten</b></td><td><input type="text" name="kota" size="40" maxlength="50"/></td></tr>
+  <tr><td><b>Provinsi<b></td><td>
+  <select name="provinsi">
+  <option value="Pilih Provinsi Anda">Pilih Provinsi Anda</option>
+  <option value="Bali">Bali</option>
+  <option value="Bangka Belitung">Bangka Belitung</option>
+  <option value="Banten">Banten</option>
+  <option value="Bengkulu">Bengkulu</option>
+  <option value="Gorontalo">Gorontalo</option>
+  <option value="Irian Jaya Barat">Irian Jaya Barat</option>
+  <option value="Jabotabekdecipsawcib">Jabotabekdecipsawcib</option>
+  <option value="Jambi">Jambi</option>
+  <option value="Jawa Barat">Jawa Barat</option>
+  <option value="Jawa Tengah">Jawa Tengah</option>
+  <option value="Jawa Timur">Jawa Timur</option>
+  <option value="Kalimantan Barat">Kalimantan Barat</option>
+  <option value="Kalimantan Selatan">Kalimantan Selatan</option>
+  <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+  <option value="Kalimantan Timur">Kalimantan Timur</option>
+  <option value="Kepulauan Riau">Kepulauan Riau</option>
+  <option value="Lampung">Lampung</option>
+  <option value="Lokasi Lain-lain">Lokasi Lain-lain</option>
+  <option value="Maluku">Maluku</option>
+  <option value="Maluku Utara">Maluku Utara</option>
+  <option value="Nangroe Aceh Darussalam">Nangroe Aceh Darussalam</option>
+  <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+  <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+  <option value="Papua">Papua</option>
+  <option value="Riau">Riau</option>
+  <option value="Sulawesi Barat">Sulawesi Barat</option>
+  <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+  <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+  <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+  <option value="Sulawesi Utara">Sulawesi Utara</option>
+  <option value="Sumatera Barat">Sumatera Barat</option>
+  <option value="Sumatera Selatan">Sumatera Selatan</option>
+  <option value="Sumatera Utara">Sumatera Utara</option>
+  <option value="Yogyakarta">Yogyakarta</option>
+      </select></td></tr>
+      <tr><td><b>No Telepon</b></td><td><input type="text" name="telepon" size="40" maxlength="50"/></td></tr>
+      <tr><td colspan="2" bgcolor=yellow><center><b>INFORMASI SEKOLAH</b></center></td></tr>
+      <tr><td><b>Asal Sekolah<b/></td><td><input type="text" name="asal sekolah" size="40" maxlength="50"/></td></tr>
+      <tr><td><b>Tahun Ajaran</b></td><td><select name="tahun_ajaran">
+      <option>Pilih Tahun Ajaran</option>
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+      <option value="2021">2021</option>
+      </select></td></tr>
+      <tr>
+        <td><label for="fPilihanPertama">Pilihan Pertama</label></td>
+        <td><input type="text" id="fPilihanPertama" name="Pilihan Pertama" placeholder="Pilihan Pertama" required></td>
+    </tr>
+    <tr>
+        <td><label for="fPilihanKedua">Pilihan Kedua</label></td>
+        <td><input type="text" id="fPilihanKedua" name="Pilihan Kedua" placeholder="Pilihan Kedua" required></td>
+    </tr>
+      <tr>
+      <td colspan="2"><br><font color=red>Saya menyatakan bahwa data yang saya isikan diatas sudah benar.
+          Saya bersedia menerima sanksi pembatalan penerimaan di Sekolah yang saya pilih apabila saya melanggar pernyataan ini.<br>
+      </td></tr>
+  <tr><td colspan="2" align="center">
+  <input type="submit" value="Proses">
+  <input type="reset" value="Batal">
+  </table>
+  </body>
+  </html>
